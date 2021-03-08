@@ -1,0 +1,92 @@
+baseURL = "http://ramaprinters.co.in/"
+languageCode = "en-us"
+paginate = 6
+theme = "portio"
+title = "RAMA PRINTERS - Visiting Cards, ID Cards, Letterheads, Pamphlets, Certificates, Posters, etc"
+# Main Menu
+#[[menu.main]]
+#name = "Home"
+#url = "#home"
+#weight = 1
+#[[menu.main]]
+#name = "About Us"
+#url = "#about"
+#weight = 3
+#[[menu.main]]
+#name = "Services"
+#url = "#service"
+#weight = 2
+#[[menu.main]]
+#name = "Work"
+#url = "#portfolio"
+#weight = 4
+#[[menu.main]]
+#name = "Resume"
+#url = "#resume"
+#weight = 5
+#[[menu.main]]
+#name = "Blog"
+#url = "#blog"
+#weight = 6
+#[[menu.main]]
+#name = "Contact"
+#url = "#contact"
+#weight = 7
+
+# Sitemap Menu
+#[[menu.sitemap]]
+#name = "About me"
+#url = "about"
+#weight = 1
+#[[menu.sitemap]]
+#name = "Frequently Ask Question"
+#url = "#"
+#weight = 2
+#[[menu.sitemap]]
+#name = "Privacy & Policy"
+#url = "#"
+#weight = 3
+#[[menu.sitemap]]
+#name = "Latest Article"
+#url = "#"
+#weight = 4
+
+[params]
+blogPageURL = "blog"
+contactLink = "contact"
+copyright = "All right reserved copyright © RAMA PRINTERS 2021"
+footerLogo = "images/site-navigation/rp_logoFinalW.png"
+formspreeURL = "YOUR FORMSPREE URL"
+googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+logo = "images/site-navigation/rp_logoFinalB.png"
+
+[params.address]
+address = "Shop No.12-7-6/1, Near Hanuman Chowk, Municipal Office Road, Moosapet, Hyderabad, Telangana - 500018."
+email = "theramaprinters@gmail.com"
+openingHours = "Open from 10am to 9pm (closed on Sundays)"
+phone1 = "+91 9346624643"
+phone2 = "+91 7013475408"
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "23.7783741"
+longitude = "90.3746808"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-facebook-official"
+url = "https://www.facebook.com/theRAMAPRINTERS"
+weight = 1
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/in/ramaprinters"
+weight = 2
+[[params.social]]
+icon = "fa-pinterest-square"
+url = "https://www.pinterest.com/rama_printers"
+weight = 3
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/rama_printers"
+weight = 4
